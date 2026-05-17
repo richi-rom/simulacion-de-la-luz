@@ -1,11 +1,15 @@
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
+import 'vuetify/styles';
 import { createVuetify } from 'vuetify';
 import { VDateInput } from 'vuetify/labs/VDateInput';
-import 'vuetify/styles';
 import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
+import { Ziggy } from './ziggy';
+import { route } from 'ziggy-js';
+window.Ziggy = Ziggy;
+window.route = route;
 
 
 const vuetify = createVuetify({

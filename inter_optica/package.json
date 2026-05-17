@@ -7,9 +7,14 @@
     "@inertiajs/vue3": "^2.2.15",
     "@mdi/font": "^7.4.47",
     "@vitejs/plugin-vue": "^6.0.1",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
     "laravel-vite-plugin": "^2.0.1",
+    "plotly.js-dist": "^3.3.0",
+    "vee-validate": "^4.15.1",
     "vue": "^3.5.22",
-    "vuetify": "^3.10.8"
+    "vuetify": "^3.10.8",
+    "ziggy-js": "^2.6.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.16",

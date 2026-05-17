@@ -1,8 +1,13 @@
+<script setup lang="ts">
+import RefleRefraLuz from './RefleRefraLuz.vue';
+
+</script>
+
 <template>
   <v-app>
     <v-main>
       <v-container>
-        <v-btn color="primary">¡Hola Vuetify!</v-btn>
+        <RefleRefraLuz></RefleRefraLuz>
       </v-container>
     </v-main>
   </v-app>
